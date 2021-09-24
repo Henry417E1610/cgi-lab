@@ -3,6 +3,8 @@
 import cgi
 import cgitb
 cgitb.enable()
+from http.cookies import SimpleCookie
+import secret
 
 class FollowingTheTAsInstructionsError(Exception):
     def __init__(self):
@@ -12,8 +14,8 @@ class FollowingTheTAsInstructionsError(Exception):
         ))
 
 # Delete this line:
-raise FollowingTheTAsInstructionsError
+#raise FollowingTheTAsInstructionsError
 
 # Edit the following two lines:
-username = "<pick a username here>"
-password = "<pick a password here>"
+username = "yajusenpai"
+password = "114514"
